@@ -44,7 +44,7 @@
 15 合并分支（主分支下进行合并)
   git merge 被合并的分支名
 16 删除分支
-  git branch -d 
+  git branch -d 要删除的分支名
 
 
 1 今天掌握到基本git的一些使用
