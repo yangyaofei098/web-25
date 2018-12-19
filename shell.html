@@ -13,5 +13,46 @@
 <script>
       /*
            cmd shell 比较底层的一个shell 提供最基本的功能
+
+  版本回退: 
+      把本地仓库还原到上一次更新的状态
+         git checkout .   //还原所有更改过的文件
+         git checkout 文件名   //还有更改了的那个文件
+      查看日志:
+         1.常规查看:     git log
+         2.精简查看日志  git log --oneline
+         3.更加强大的查看日志 git reflog
+         更加强大的还原功能: 
+             git reset hard 版本号(commit id)
+
+           文件更改了, 还没提交到远程仓库
+           可以使用 git checkout .   //还原所有更改过的, 
+                       git checkout 文件名,   //还有更改了的那个文件
+      */
+
+
+      /*
+           分支: 
+               分支其实就是本地仓库的一个备份
+               不同分支下的正常操作 互补影响
+            作用: 
+                提供了更加方便去管理不同的项目方式而已
+            创建新分支: 
+                 git branch               查看分支, 主分支
+                 git branch 分支名称   创建分支
+            切换分支: 
+                 git checkout 分支名
+            
+            合并分支: git merge 要合并的分支名
+                 先切换回主分支上
+                 再合并 git merge 要合并的分支名
+
+            删除分支: 
+                 git branch -d 要删除的分支名
+      */
+
+
+      /*
+          
       */
 </script>
