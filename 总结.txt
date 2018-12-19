@@ -1,0 +1,52 @@
+0 设置用户名和邮箱
+  git config --global user.name
+  git config --global user.email
+  查看
+   git config user.name
+   git config user.email
+1 本地初始化仓库
+  git init
+2 查看仓库状态
+  git status 
+3 添加到暂存区
+  git add .
+4 提交到本地仓库
+  git commit -m 备注信息
+5 设置远程仓库的名称和地址
+  git remote add 变量名 地址 
+6 第一次执行推送
+  git  push -u 变量名 master 
+7 第二次推送
+  git push 
+8 查看远程仓库的地址
+  git remote -v 
+8.5 克隆项目
+  git clone 地址
+8.6 拉取更新
+  git pull 
+9 查看日志
+  1 常规的查看
+    git log 
+  2 精简的查看
+    git log --oneline 
+  3 强大的查看
+    git reflog 
+10 把文件还原到上一个更新之后的版本
+  git checkout 文件名
+11 还原到任意一个版本状态
+  git reset --hard 版本号
+12 查看分支
+  git branch 
+13 新建分支
+  git  branch  分支名
+14 切换分支
+  git checkout 分支名
+15 合并分支（主分支下进行合并)
+  git merge 被合并的分支名
+16 删除分支
+  git branch -d 
+
+
+1 今天掌握到基本git的一些使用
+2 git的知识 不止这一些  
+  
